@@ -1,10 +1,10 @@
 // 3. Write a JavaScript program to get the current date.  
 const getCurrentDate = () =>{
-    var newDate = new Date();
+    let newDate = new Date();
 
-    var dd = newDate.getDate();
-    var mm = newDate.getMonth() + 1;
-    var yyyy = newDate.getFullYear();
+    let dd = newDate.getDate();
+    let mm = newDate.getMonth() + 1;
+    const yyyy = newDate.getFullYear();
     
     dd = dd < 10 ? '0' + dd : dd;
     mm = mm < 10 ? '0' + mm : mm;
