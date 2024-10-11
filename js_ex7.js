@@ -1,5 +1,4 @@
 // Write a JavaScript program to find out if 1st January will be a Sunday between 2014 and 2050.  
-
 /*
 lessons learned:
 get correct tiezone using Date.UTC() static method
