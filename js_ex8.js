@@ -19,3 +19,5 @@ function guessNumber() {
 }
 
 guessNumber();
+
+// fiddle || https://jsfiddle.net/matei218/hpvjL45x/1/
