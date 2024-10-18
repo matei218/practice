@@ -27,5 +27,9 @@ function addPy(str) {
     return str.startsWith("Py") ? str : "Py" + str;
 }
 
+// v4
+
+const string_check = (str1) => (str1 === null || str1 === undefined || str1.substring(0, 2) === 'Py' ? str1 : `Py${str1}`);
+
 // fiddle | to come
 
