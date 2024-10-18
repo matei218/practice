@@ -13,3 +13,5 @@ function computeDifference(num){
 
 console.log(computeDifference(18));
 console.log(computeDifference(22));
+
+// fiddle | to come
