@@ -20,5 +20,12 @@ function addPy(str) {
     }
 }
 
+
+// v3
+
+function addPy(str) {
+    return str.startsWith("Py") ? str : "Py" + str;
+}
+
 // fiddle | to come
 
